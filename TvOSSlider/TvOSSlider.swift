@@ -26,7 +26,7 @@ private let decelerationMaxVelocity: Float = 1000
 private let fineTunningVelocityThreshold: Float = 600
 
 /// A control used to select a single value from a continuous range of values.
-public final class TvOSSlider: UIControl {
+public open class TvOSSlider: UIControl {
     
     // MARK: - Public
     
